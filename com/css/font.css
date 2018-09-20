@@ -1,33 +1,38 @@
 @charset "utf-8";
 
-
 @font-face {
-  font-family: 'Nanum Gothic Bold';
-  font-style: normal;
-  font-weight: bold;
-  src: url("../font/NanumGothic-Bold.eot");
-  src: url("../font/NanumGothic-Bold.eot?#iefix") format('embedded-opentype'),
-       url("../font/NanumGothic-Bold.woff2") format('woff2'),
-       url("../font/NanumGothic-Bold.woff") format('woff'),
-       url("../font/NanumGothic-Bold.ttf") format('truetype');
+    font-family:'NotoSans Light';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../font/notokr-light.eot);
+    src: local(☺),
+    url(../font/notokr-light.eot?#iefix) format('embedded-opentype'),
+    url(../font/notokr-light.woff) format('woff');
 }
 @font-face {
-  font-family: 'Nanum Gothic';
-  font-style: normal;
-  font-weight: normal;
-  src: url("../font/NanumGothic-Regular.eot");
-  src: url("../font/NanumGothic-Regular.eot?#iefix") format('embedded-opentype'),
-       url("../font/NanumGothic-Regular.woff2") format('woff2'),
-       url("../font/NanumGothic-Regular.woff") format('woff'),
-       url("../font/NanumGothic-Regular.ttf") format('truetype');
+    font-family:'NotoSans DemiLight';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../font/NotoSansCJKkr-DemiLight.eot);
+    src: local(☺),
+    url(../font/NotoSansCJKkr-DemiLight.eot?#iefix) format('embedded-opentype'),
+    url(../font/NotoSansCJKkr-DemiLight.woff) format('woff');
 }
 @font-face {
-  font-family: 'Nanum Gothic Ex';
-  font-style: normal;
-  font-weight: bold;
-  src: url("../font/NanumGothic-ExtraBold.eot");
-  src: url("../font/NanumGothic-ExtraBold.eot?#iefix") format('embedded-opentype'),
-       url("../font/NanumGothic-ExtraBold.woff2") format('woff2'),
-       url("../font/NanumGothic-ExtraBold.woff") format('woff'),
-       url("../font/NanumGothic-ExtraBold.ttf") format('truetype');
+    font-family:'NotoSans Regular';
+    font-style:normal;
+    font-weight:normal;
+    src:url(../font/NotoSans-Regular.eot);
+    src: local(☺),
+    url(../font/NotoSans-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../font/NotoSans-Regular.woff) format('woff');
+}
+@font-face {
+    font-family:'NotoSans Blod';
+    font-style:normal;
+    font-weight:bold;
+    src:url(../font/notokr-bold.eot);
+    src: local(☺),
+    url(../font/notokr-bold.eot?#iefix) format('embedded-opentype'),
+    url(../font/notokr-bold.woff) format('woff');
 }
