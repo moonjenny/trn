@@ -100,11 +100,15 @@ body:after {display:block; clear:both; content:'';}
 .main .swiper-slide .showcase.img2{background:url(../../images/main/img-showcase-02.jpg) top center no-repeat;}
 .main .swiper-slide .showcase.img3{background:url(../../images/main/img-showcase-03.jpg) top center no-repeat;}
 .main .swiper-slide .showcase:after {content:'';position:absolute;top:0;left:0;height:160px;width:100%;background: url(../../images/main/bg-main-visual.png) repeat-x;z-index: 1;}
-.main .swiper-slide .txt-box{width:1140px;margin:0 auto;padding:190px 0 0;}
-.main .swiper-container-horizontal .swiper-pagination{position:absolute;top:428px;left:50%;margin-left:-580px;width:120px;height:20px;text-align:left;}
+.main .swiper-slide .txt-box{width:1140px;margin:0 auto;padding:185px 0 0;}
+.main .swiper-slide .txt-box span{display:block;}
+.main .swiper-slide .txt-box .eng{display:inline-block;padding:0 0 8px;color:#05b7fb;font-size:24px;font-weight:bold;border-bottom:2px solid #05b7fb;}
+.main .swiper-slide .txt-box .tit{margin:30px 0 0;color:#fff;font-size:55px;font-weight:bold;}
+.main .swiper-slide .txt-box .txt{margin:16px 0 0;color:#fff;font-size:30px;}
+.main .swiper-container-horizontal .swiper-pagination{position:absolute;top:430px;left:50%;margin-left:-580px;width:120px;height:20px;text-align:left;}
 .main .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 10px; width:18px;height:18px;border:1px solid #fff;border-radius:inherit;background:none;opacity:1;}
 .main .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#fff;}
-.main .swiper-container .swiper-control{position:absolute;top:428px;left:50%;margin-left:-450px;width:20px;height:20px;z-index:1;}
+.main .swiper-container .swiper-control{position:absolute;top:430px;left:50%;margin-left:-450px;width:20px;height:20px;z-index:1;}
 .main .swiper-container .swiper-control span{display:block;width:20px;height:20px;font-size:0;color:transparent;text-indent:-9999px;cursor:pointer;}
 .main .swiper-container .swiper-control .recom-stop{background:url(../../images/main/btn-stop.png) no-repeat;}
 .main .swiper-container .swiper-control .recom-play{background:url(../../images/main/btn-play.png) no-repeat;}
@@ -115,13 +119,14 @@ body:after {display:block; clear:both; content:'';}
 .main-gate ul li.gate2{background:#ce0546;}
 .main-gate ul li.gate3{background:#192069;}
 .main-gate ul li .gate-box{padding:40px 40px;}
+.main-gate ul li .gate-box a{display:block;}
 .main-gate ul li .gate-box span{display:block;color:#fff;}
+.main-gate ul li .gate-box .tag{margin-bottom:20px;font-size:18px;}
 .main-gate ul li .gate-box .tit{font-size:31px;font-weight:400;}
-.main-gate ul li .gate-box .txt{margin:18px 0 0;font-size:15px;line-height:22px;}
+.main-gate ul li .gate-box .txt{margin:18px 0 0;font-size:15px;line-height:22px;font-family:'NotoSans DemiLight'}
 .main-gate ul li .gate-box .btn-gate{display:block;margin:31px 0 0;width:58px;height:48px;border:1px solid #fff;}
 .main-gate ul li .gate-box .btn-gate:before{content:'';display:block;width:58px;height:48px;background:url(../../images/main/btn-gate.png) no-repeat;-webkit-transition:-webkit-transform .2s;transition:-webkit-transform .2s;-o-transition:transform .2s;transition:transform .2s;transition:transform .2s,-webkit-transform .2s;}
-.main-gate ul li .gate-box .btn-gate:hover:before{-webkit-transform:translate(5px, 0);-ms-transform:translate(5px, 0);transform:translate(5px, 0)}
-.main-gate ul li .gate-box .btn-gate span{box-sizing:content-box;position:absolute;text-indent:-9999px;z-index:-1;display:inline-block;overflow:hidden;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;padding:0;word-break:keep-all;white-space:nowrap;border:0;color:transparent;font:0/0 a;*height:0;}
+.main-gate ul li .gate-box a:hover .btn-gate:before{-webkit-transform:translate(5px, 0);-ms-transform:translate(5px, 0);transform:translate(5px, 0)}
 .trn-notice{width:1140px;margin:0 auto;padding:80px 0;}
 .trn-notice h3{color:#222;font-size:34px;font-weight:bold;text-align:center;line-height:33px;}
 .trn-notice .noti-list{padding:50px 0 0;}
