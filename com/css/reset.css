@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+ *  SHOPPINGNT
+ *  Moon Yeon Hee(Jenny)
+ *  2018.10.05
+ */
+
+html, body, div, span, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, blockquote, p, address, pre, cite, form, fieldset, input, textarea, select,
+table, caption, tbody, tfoot, thead, tr, th, td, abbr, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, article, aside,
+canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video
+{margin:0; padding:0; border:0; font-size:100%; letter-spacing:0; vertical-align:baseline; outline:0;}
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal;}
+fieldset, img, abbr, acronym {border:0;}
+ol, ul {list-style:none;}
+table {width:100%; border-collapse:collapse; border-spacing:0; border:0;}
+address, caption, em, cite {font-weight:normal; font-style:normal;}
+ins {text-decoration:none;}
+del {text-decoration:line-through;}
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+hr {display:none;}
+/* html5 */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
+
+legend, caption {overflow:hidden; position:absolute; top:-1000%; width:0; height:0; font-size:0; text-indent:-9999%; line-height:0;}
+body {color:#333; font-family:'맑은 고딕',"돋움", Dotum, "굴림", Gulim, Verdana, Arial, sans-serif; font-size:16px; line-height:1.2;}
+.lang-en, :lang(en) {font-family: Tahoma, Consolas, Verdana, "Helvetica Neue", Helvetica, Arial, Sans-Serief;}
+.lang-ch, :lang(cn) {font-family: 'Microsoft-YaHei';}
+pre {white-space:pre-wrap; word-wrap:break-word;}
+button, input[type="button"], input[type="reset"], input[type="submit"] {*overflow:visible; font-family:'나눔 고딕','Nanum Gothic','맑은 고딕',"돋움", Dotum, "굴림", Gulim, sans-serif; cursor:pointer; -webkit-appearance:button;}
+input[type="checkbox"], input[type="radio"] {padding:0; box-sizing:border-box;}
+input[type="search"] {border-radius:0; -webkit-border-radius:0; -webkit-appearance:textfield; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box;}
+input[type="search"]::-webkit-search-cancel-
+button,input[type="search"]::-webkit-search-results-
+button,input[type="search"]::-webkit-search-results-decoration {-webkit-appearance:none;}
+button::-moz-focus-inner, input::-moz-focus-inner {border:0;padding:0;}
+a, a:link, a:visited, a:hover, a:active {color:inherit; text-decoration:none;}
+
+img {vertical-align:top; -ms-interpolation-mode:bicubic;}
+label, select, input, textarea {color:#333; vertical-align:middle;}
+input, button {border:0; border-radius:0; background:transparent;}
