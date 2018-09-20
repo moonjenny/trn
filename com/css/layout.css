@@ -150,7 +150,7 @@ body:after {display:block; clear:both; content:'';}
 .tit-box.customer{background:url(../../images/about/bg-sub-05.jpg) top center no-repeat;}
 .tit-box .h3-tit{width:1140px;margin:0 auto;text-align:left;padding-top:117px;}
 .sec-sub{width:1140px;margin:0 auto;padding:50px 0;}
-.sec-sub .h4-tit{padding:0 0 10px;color:#111;font-size:18px;font-weight:bold;border-bottom:2px solid #111;}
+.sec-sub .h4-tit{padding:0 0 10px;color:#111;font-size:24px;font-weight:bold;border-bottom:2px solid #111;}
 
 /* about */
 .about{}
@@ -158,8 +158,8 @@ body:after {display:block; clear:both; content:'';}
 .about dl{margin:0 0 50px;}
 .about dl:after{display:block;clear:both;content:''}
 .about dt{float:left;width:310px;color:#111;font-size:28px;font-weight:bold;line-height:42px;letter-spacing:-1px;}
-.about dd{float:left;width:830px;color:#000;font-size:14px;line-height:24px;letter-spacing:-1px;}
-.about dd em{font-size:16px;font-weight:bold;}
+.about dd{float:left;width:830px;color:#000;font-size:16px;line-height:24px;}
+.about dd em{color:#111;font-size:18px;font-weight:bold;}
 
 /* business */
 .business{}

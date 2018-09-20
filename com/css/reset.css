@@ -23,7 +23,7 @@ hr {display:none;}
 /* html5 */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block;}
 
 legend, caption {overflow:hidden; position:absolute; top:-1000%; width:0; height:0; font-size:0; text-indent:-9999%; line-height:0;}
-body {color:#333; font-family:'맑은 고딕',"돋움", Dotum, "굴림", Gulim, Verdana, Arial, sans-serif; font-size:16px; line-height:1.2;}
+body {color:#333; font-family:'NotoSans Light','Malgun Gothic','맑은 고딕',"돋움", Dotum, "굴림", Gulim, Verdana, Arial, sans-serif; font-size:16px; line-height:1.2;}
 .lang-en, :lang(en) {font-family: Tahoma, Consolas, Verdana, "Helvetica Neue", Helvetica, Arial, Sans-Serief;}
 .lang-ch, :lang(cn) {font-family: 'Microsoft-YaHei';}
 pre {white-space:pre-wrap; word-wrap:break-word;}
