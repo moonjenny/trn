@@ -9,5 +9,5 @@
 @import url(reset.css);			/* reset 				          		*/
 @import url(common.css);		/* common, main, sub    			*/
 @import url(layout.css);		/* header, footer, container 	*/
-/*@import url(font.css);			/* webfont   				      		*/
+@import url(font.css);			/* webfont   				      		*/
 @import url(swiper.min.css); /* swiper	      */
