@@ -1,56 +1,33 @@
 @charset "utf-8";
 
-@font-face {
-	font-family: NanumBarunGothic;
-	src:
-		local(※),
-		url(../font/NanumBarunGothic.eot) format('eot'),
-		url(../font/NanumBarunGothic.woff) format('woff'),
-		url(../font/NanumBarunGothic.ttf) format('ttf');
-}
 
 @font-face {
-	font-family: NanumBarunGothicBold;
-	src:
-		local(※),
-		url(../font/NanumBarunGothicBold.eot) format('eot'),
-		url(../font/NanumBarunGothicBold.woff) format('woff'),
-		url(../font/NanumBarunGothicBold.ttf) format('ttf');
+  font-family: 'Nanum Gothic Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/NanumGothic-Bold.eot");
+  src: url("../font/NanumGothic-Bold.eot?#iefix") format('embedded-opentype'),
+       url("../font/NanumGothic-Bold.woff2") format('woff2'),
+       url("../font/NanumGothic-Bold.woff") format('woff'),
+       url("../font/NanumGothic-Bold.ttf") format('truetype');
 }
-
 @font-face {
-	font-family: NanumBarunGothicLight;
-	src:
-		local(※),
-		url(../font/NanumBarunGothicLight.eot) format('eot'),
-		url(../font/NanumBarunGothicLight.woff) format('woff'),
-		url(../font/NanumBarunGothicLight.ttf) format('ttf');
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: normal;
+  src: url("../font/NanumGothic-Regular.eot");
+  src: url("../font/NanumGothic-Regular.eot?#iefix") format('embedded-opentype'),
+       url("../font/NanumGothic-Regular.woff2") format('woff2'),
+       url("../font/NanumGothic-Regular.woff") format('woff'),
+       url("../font/NanumGothic-Regular.ttf") format('truetype');
 }
-
 @font-face {
-	font-family: Raleway-Thin;
-	src:
-		local(※),
-		url(../font/raleway-extralight.svg) format('svg'),
-		url(../font/raleway-extralight.eot) format('eot'),
-		url(../font/raleway-extralight.woff) format('woff'),
-		url(../font/raleway-extralight.ttf) format('ttf');
-}
-
-@font-face {
-	font-family: Raleway-Bold;
-	src:
-		local(※),
-		url(../font/raleway-bold-webfont.eot) format('eot'),
-		url(../font/raleway-bold-webfont.woff) format('woff'),
-		url(../font/raleway-bold-webfont.ttf) format('ttf');
-}
-
-@font-face {
-	font-family: Microsoft-YaHei;
-	src:
-		local(※),
-		url(../font/MicrosoftYaHei.eot) format('eot'),
-		url(../font/MicrosoftYaHei.woff) format('woff'),
-		url(../font/MicrosoftYaHei.ttf) format('ttf');
+  font-family: 'Nanum Gothic Ex';
+  font-style: normal;
+  font-weight: bold;
+  src: url("../font/NanumGothic-ExtraBold.eot");
+  src: url("../font/NanumGothic-ExtraBold.eot?#iefix") format('embedded-opentype'),
+       url("../font/NanumGothic-ExtraBold.woff2") format('woff2'),
+       url("../font/NanumGothic-ExtraBold.woff") format('woff'),
+       url("../font/NanumGothic-ExtraBold.ttf") format('truetype');
 }
