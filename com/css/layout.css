@@ -21,6 +21,7 @@ body:after {display:block; clear:both; content:'';}
 .header-box .gnb .inner:after{display:block;clear:both;content:''}
 .header-box .gnb .inner li{float:left;margin:0 70px 0 0;height:86px;}
 .header-box .gnb .inner li span{color:#111;font-size:20px;line-height:86px;}
+.header-box .gnb .inner li.selected span{color:#a70a3d;}
 /*.header-box .gnb .inner li{float:left;margin:0 75px 0 0;height:86px;}
 .header-box .gnb .inner li a{display:block;padding:35px 15px 31px;font-size:18px;color:#fff;font-weight:600;line-height:86px;}
 .header-box .gnb .inner li a:hover,.header-box .gnb .inner li a.selected{color:#b61549;border-bottom:2px solid #b61549;}
@@ -118,8 +119,7 @@ body:after {display:block; clear:both; content:'';}
 .main-gate ul li.gate1{background:#0086c5;}
 .main-gate ul li.gate2{background:#ce0546;}
 .main-gate ul li.gate3{background:#192069;}
-.main-gate ul li .gate-box{padding:40px 40px;}
-.main-gate ul li .gate-box a{display:block;}
+.main-gate ul li .gate-box a{display:block;padding:40px 40px;}
 .main-gate ul li .gate-box span{display:block;color:#fff;}
 .main-gate ul li .gate-box .tag{margin-bottom:20px;font-size:18px;}
 .main-gate ul li .gate-box .tit{font-size:31px;font-weight:400;}
@@ -159,15 +159,15 @@ body:after {display:block; clear:both; content:'';}
 .tit-box .tit-info span{display:block;}
 .tit-box .tit-info .title{font-size:18px;color:#05b7fb;}
 .tit-box .tit-info .text{margin:5px 0 0;font-size:24px;color:#fff;}
-.sec-sub{width:1140px;margin:0 auto;padding:50px 0;}
-.sec-sub .h4-tit{padding:0 0 12px;color:#111;font-size:24px;font-weight:bold;border-bottom:2px solid #111;}
+.sec-sub{width:1140px;margin:0 auto;padding:45px 0;}
+.sec-sub .h4-tit{padding:0 0 15px;color:#111;font-size:24px;border-bottom:2px solid #111;}
 
 /* about */
 .about{}
 .about .top-img{margin:30px 0;}
-.about dl{margin:0 0 50px;}
+.about dl{margin:30px 0 50px;}
 .about dl:after{display:block;clear:both;content:''}
-.about dt{float:left;width:310px;color:#111;font-size:28px;font-weight:bold;line-height:42px;letter-spacing:-1px;}
+.about dt{float:left;width:310px;color:#111;font-size:28px;line-height:42px;letter-spacing:-1px;}
 .about dd{float:left;width:830px;color:#000;font-size:16px;line-height:24px;font-family:'NotoSans Light';}
 .about dd strong{font-family:'NotoSans Regular';}
 .about dd em{color:#111;font-size:16px;font-weight:bold;}
