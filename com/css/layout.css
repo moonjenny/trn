@@ -116,6 +116,10 @@ body:after {display:block; clear:both; content:'';}
 .main-gate{position:absolute;bottom:32px;left:50%;width:1140px;margin-left:-570px;z-index:1;}
 .main-gate ul:after{display:block;clear:both;content:'';}
 .main-gate ul li{float:left;width:380px;height:300px;opacity:0.9;}
+.main-gate ul li{-webkit-transition: width 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;-o-transition: width 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;transition: width 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;}
+.main-gate ul li:hover{-webkit-transition:width 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;-o-transition:width 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;transition:width 0.6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s}
+.main-gate.over ul li{width:370px;}
+.main-gate.over ul li:hover{width:400px;}
 .main-gate ul li.gate1{background:#0086c5;}
 .main-gate ul li.gate2{background:#ce0546;}
 .main-gate ul li.gate3{background:#192069;}

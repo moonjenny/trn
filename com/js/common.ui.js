@@ -42,6 +42,14 @@ $(document).ready(function(){
 		main_showcase();
 	});
 
+	//main-gate
+	$('.main-gate').mouseover(function(){
+		$(this).addClass('over');
+	});
+	$('.main-gate').mouseleave(function(){
+		$(this).removeClass('over');
+	});
+
 	//footer
 	var fstate = 'off';
 	$('.foot-family .family-site').click(function(){
