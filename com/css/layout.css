@@ -51,7 +51,7 @@ body:after {display:block; clear:both; content:'';}
 .main .header-box .gnb h1 .logo{background-position:0 0;}
 .main .header-box .gnb .inner li span{color:#fff;}
 .main .header-box .snb{top:0;}
-.header-box .snb .inner{position:relative;width:1140px;height:302px;margin:0 auto;}
+.header-box .snb .inner{position:relative;width:1140px;height:202px;/*height:302px;*/margin:0 auto;}
 .header-box .snb .inner ul{position:absolute;top:16px;}
 .header-box .snb .inner ul li{line-height:37px;}
 .header-box .snb .inner ul li a{color:#222;font-size:16px;font-family:'NotoSans DemiLight';}

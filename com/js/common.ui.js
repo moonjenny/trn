@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   //GNB
-	$('.gnb ul').mouseover(function(){
+	$('.gnb ul li').mouseover(function(){
 		$('.header-box .snb').slideDown();
 		//$('.header-box').addClass('over');
 	});
