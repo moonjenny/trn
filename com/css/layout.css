@@ -258,27 +258,27 @@ body:after {display:block; clear:both; content:'';}
 .subCon p.description strong{font-size:30px;color:#a70a3d;letter-spacing:-2px;}
 .subCon h3{margin-bottom:20px;font-size:23px;}
 /*이용약관*/
-.etc01{padding:40px 0}
+.etc01{padding:0;}
 .etc01 .tab_area{border-bottom:1px solid #dddddd;*zoom:1}
 .etc01 .tab_area:after{content:"";display:block;clear:both}
 .etc01 .tab_area li{float:left}
 .etc01 .pos_r{position:relative;width:100%}
-.etc01 .pos_r .date{position:absolute;right:0;top:-80px}
+.etc01 .pos_r .date{position:absolute;right:0;top:-50px}
 .etc01 .pos_r .sel_date{display:inline-block;margin-right:11px;padding-left:9px;color:#666;vertical-align:middle;}
-.etc01 .ag_list{margin-top:13px;padding:30px 0 30px 20px;border-top:1px solid #cccccc;border-bottom:1px dashed #cccccc;*zoom:1}
+.etc01 .ag_list{padding:35px 0 30px;border-bottom:1px solid #cccccc;*zoom:1}
 .etc01 .ag_list:after{content:"";display:block;clear:both}
-.etc01 .ag_list ol{float:left;width:355px}
+.etc01 .ag_list ol{float:left;width:400px}
 .etc01 .ag_list ol.w330{width:330px}
-.etc01 .ag_list ol li{margin-bottom:11px}
+.etc01 .ag_list ol li{margin-bottom:11px;font-family:'NotoSans Light';}
 .etc01 .ag_list ol li a:hover, .sub_agreement .ag_list ol li a span:hover{text-decoration:underline}
 .etc01 .ag_list ol.w330 li a:hover, .sub_agreement .ag_list ol.w330 li a.span:hover{text-decoration:underline}
-.etc01 .ag_list ol li strong{display:inline-block;width:70px;color:#111;vertical-align:top;*display:inline;*zoom:1; font-size: inherit;}
+.etc01 .ag_list ol li strong{display:inline-block;width:70px;vertical-align:top;*display:inline;*zoom:1;font-family:'NotoSans Bold';}
 .etc01 .ag_list ol li span{display:inline-block;width:200px;}
-.etc01 .ag_cont{margin-top:33px;padding-left:20px}
-.etc01 .ag_cont li{margin-top:25px}
-.etc01 .ag_cont li, .etc01 .ag_cont strong,.etc01 .ag_cont p{line-height:2}
-.etc01 .ag_cont li strong{color:#444; font-size: inherit;}
-.etc01 .ag_cont li li{margin-top:0}
+.etc01 .ag_cont{margin-top:33px;}
+.etc01 .ag_cont li{margin-top:25px;color:#111;}
+.etc01 .ag_cont li, .etc01 .ag_cont strong,.etc01 .ag_cont p{line-height:30px;font-family:'NotoSans Light';}
+.etc01 .ag_cont li strong{color:#111; font-size: inherit;}
+.etc01 .ag_cont li li{margin-top:0;}
 .etc01 .ag_cont li li li{margin-left:20px}
 .etc01 .ag_cont li li p{margin-left:15px}
 .etc01 .ag_cont .font11{display:block;margin-top:10px}
