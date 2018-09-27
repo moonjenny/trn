@@ -1,4 +1,4 @@
-$(window).load(function(){
+$(document).ready(function(){
 
   //GNB
 	$('.gnb ul li').mouseover(function(){
@@ -73,10 +73,10 @@ $(window).load(function(){
 	if($('body').hasClass('sub') === true) {
 		console.log('sub page');
 	}
-});
 
-//etc
-function moveTag(id){
-	var offset = $("#"+id).offset();
-  $('html, body').animate({scrollTop : offset.top}, 400);
-}
+	//etc
+	function moveTag(id){
+		var offset = $("#"+id).offset();
+	  $('html, body').animate({scrollTop : offset.top}, 400);
+	}
+});
