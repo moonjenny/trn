@@ -251,7 +251,7 @@ body:after {display:block; clear:both; content:'';}
 .customer{}
 
 /* etc */
-#container .etc{border-top:1px solid #000;}
+#container .etc{border-top:1px solid #cbcbcb;}
 .subCon{margin:45px auto;width:1140px;}
 .subCon h2{margin:0;padding:0 0 10px;font-size:26px;font-weight:bold;border-bottom:2px solid #111;}
 .subCon p.description{font-size:20px;text-align:center;letter-spacing:-1px;margin:0 0 50px 0; }
