@@ -94,7 +94,7 @@ body:after {display:block; clear:both; content:'';}
 #container {position:relative;}
 
 /* main */
-.main-visual{position:relative;background:url(../../images/main/bg-main-visual.png) repeat-x;}
+.main-visual{position:relative;height:870px;overflow:hidden;background:url(../../images/main/bg-main-visual.png) repeat-x;}
 .main .swiper-slide{height:870px;}
 .main .swiper-slide .showcase{height:870px}
 .main .swiper-slide .showcase.img1{background:url(../../images/main/img-showcase-01.jpg) top center no-repeat;}
