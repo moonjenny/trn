@@ -263,7 +263,7 @@ body:after {display:block; clear:both; content:'';}
 .etc01 .tab_area:after{content:"";display:block;clear:both}
 .etc01 .tab_area li{float:left}
 .etc01 .pos_r{position:relative;width:100%}
-.etc01 .pos_r .date{position:absolute;right:0;top:-50px}
+.etc01 .pos_r .date{position:absolute;right:0;top:-35px}
 .etc01 .pos_r .sel_date{display:inline-block;margin-right:11px;padding-left:9px;color:#666;vertical-align:middle;}
 .etc01 .ag_list{padding:35px 0 30px;border-bottom:1px solid #cccccc;*zoom:1}
 .etc01 .ag_list:after{content:"";display:block;clear:both}
@@ -275,7 +275,7 @@ body:after {display:block; clear:both; content:'';}
 .etc01 .ag_list ol li strong{display:inline-block;width:70px;vertical-align:top;*display:inline;*zoom:1;font-family:'NotoSans Bold';}
 .etc01 .ag_list ol li span{display:inline-block;width:200px;}
 .etc01 .ag_cont{margin-top:33px;}
-.etc01 .ag_cont li{margin-top:25px;color:#111;}
+.etc01 .ag_cont li{margin-top:30px;color:#111;}
 .etc01 .ag_cont li, .etc01 .ag_cont strong,.etc01 .ag_cont p{line-height:30px;font-family:'NotoSans Light';}
 .etc01 .ag_cont li strong{color:#111; font-size: inherit;}
 .etc01 .ag_cont li li{margin-top:0;}
