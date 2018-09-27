@@ -4,14 +4,71 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="Pragma" content="no-cache">
-  <title>쇼핑엔티</title>
-  <meta name="title" content="쇼핑엔티">
-  <meta name="description" content="쇼핑엔티">
-  <meta name="keywords" content="쇼핑엔티">
+  <title>주식회사 티알엔</title>
+  <meta name="title" content="주식회사 티알엔">
+  <meta name="description" content="주식회사 티알엔">
+  <meta name="keywords" content="주식회사 티알엔">
   <link rel="stylesheet" type="text/css" href="../com/css/style.css">
   <script type="text/javascript" src="../com/js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="../com/js/swiper.min.js"></script>
   <script type="text/javascript" src="../com/js/common.ui.js"></script>
+  <script type="text/javascript">
+//지도설정
+// daumMap(1,37.5608922,126.9762053); //숭례문지점
+/*
+
+daumMap(2,36.3306457,127.4238468); --중부지점
+daumMap(3,35.2495546,129.0935376); --영남지점
+*/
+/**
+ * 다음api를 이용하여 지도를 그린다
+ * @param map 해당 div id
+ * @param pos1 위도
+ * @param pos2 경도
+ */
+
+function daumMap(map,pos1,pos2) {
+    var position = new daum.maps.LatLng(pos1, pos2);
+
+    var dmap = new daum.maps.Map(document.getElementById('map'+map), {
+        center: position,
+        level: 4 // 지도 레벨
+    });
+
+    var zoomControl = new daum.maps.ZoomControl();
+    dmap.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
+    var mapTypeControl = new daum.maps.MapTypeControl();
+    dmap.addControl(mapTypeControl, daum.maps.ControlPosition.TOPRIGHT);
+
+    var marker = new daum.maps.Marker({
+        position: dmap.getCenter()
+    });
+    marker.setMap(dmap);
+
+};
+
+$(document).ready(function(){
+	$("#map1Load").on('click',function(){
+		daumMap(1,37.5622866,127.0029687);
+
+	});
+// 	daumMap(1,37.5608922,126.9762053);
+
+//     $('.divArea').hide();
+//     $('.divArea').eq(0).show();
+
+//     // TODO : 임시 주석
+//     //$('#layerWrapMap').show();
+//     // 탭클릭
+//     $('.mapLoad').click(function(e) {
+//         e.preventDefault();
+//         $('.divArea').hide();
+//         var checkVal = this.id.substring(1,2);
+//         $('#b'+checkVal).show();
+//     });
+});
+</script>
+
 </head>
 <body>
   <header id="header">
@@ -97,6 +154,10 @@
             <span class="tel">전화 1544-5111<br>팩스 02-777-5127</span>
           </div>
           <div class="map-img">
+            <!-- 지도 등장 -->
+						<div id="map1" class="map" style="width:830px;height:480px;">
+						</div>
+
             <img src="../images/about/about-img-03.jpg" alt="오시는 길 이미지">
           </div>
         </div>
@@ -147,8 +208,6 @@
             <ul>
               <li><a href="http://www.tsis.co.kr" target="_blank">tsis</a></li>
               <li><a href="https://www.taekwangcc.co.kr" target="_blank">태광CC</a></li>
-              <li><a href="http://www.booknlife.com" target="_blank">한국도서보급</a></li>
-              <li><a href="http://shoppingnt.co.kr" target="_blank">쇼핑엔티</a></li>
             </ul>
           </li>
           <li>
