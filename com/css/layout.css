@@ -286,3 +286,6 @@ body:after {display:block; clear:both; content:'';}
 .etc01 .ag_cont .tb_type1 th{border-right:1px solid #dfdfdf}
 .etc01 .ag_cont .tb_type1 td{padding:8px 10px 7px;border-right:1px solid #dfdfdf}
 .etc01 .ag_cont .tb_type1 .nbor{border-right:0}
+
+.root_daum_roughmap_landing{top:-40px;}
+.root_daum_roughmap img{background:url(../../images/common/marker_map01.png) no-repeat;}

@@ -101,11 +101,21 @@
             <span class="tel">전화 1544-5111<br>팩스 02-777-5127</span>
           </div>
           <div class="map-img">
-            <!-- 지도 등장 -->
-						<!--<div id="map" class="daum-map" style="width:830px;height:480px;">
-						</div>-->
+            <!-- * Daum 지도 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1538026212421" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
 
-            <img src="../images/about/about-img-03.jpg" alt="오시는 길 이미지">
+<!-- 3. 실행 스크립트 -->
+<script>
+	new daum.roughmap.Lander({
+		"timestamp" : "1538026212421",
+		"key" : "q6ry",
+		"mapWidth" : "830",
+		"mapHeight" : "447"
+	}).render();
+</script>
+            <!--<img src="../images/about/about-img-03.jpg" alt="오시는 길 이미지">-->
           </div>
         </div>
         <div class="subway">
