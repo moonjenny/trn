@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   //main-visual
 	function main_showcase(){
-		var mainSwiper = new Swiper('.swiper-container', {
+		var mainSwiper = new Swiper('.main-visual .swiper-container', {
 			simulateTouch : false,
 			slidesPerView: 1,
 			spaceBetween: 0,
