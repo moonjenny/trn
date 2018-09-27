@@ -269,7 +269,7 @@ body:after {display:block; clear:both; content:'';}
 .etc01 .ag_list:after{content:"";display:block;clear:both}
 .etc01 .ag_list ol{float:left;width:400px}
 .etc01 .ag_list ol.w330{width:330px}
-.etc01 .ag_list ol li{margin-bottom:11px;font-family:'NotoSans Light';}
+.etc01 .ag_list ol li{margin-bottom:11px;font-family:'NotoSans DemiLight';}
 .etc01 .ag_list ol li a:hover, .sub_agreement .ag_list ol li a span:hover{text-decoration:underline}
 .etc01 .ag_list ol.w330 li a:hover, .sub_agreement .ag_list ol.w330 li a.span:hover{text-decoration:underline}
 .etc01 .ag_list ol li strong{display:inline-block;width:70px;vertical-align:top;*display:inline;*zoom:1;font-family:'NotoSans Bold';}
