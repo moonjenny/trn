@@ -2,12 +2,12 @@ $(document).ready(function(){
 
   //GNB
 	$('.gnb ul li').mouseover(function(){
-		$('.header-box .snb').slideDown();
+		$('.header-box .snb').show();
 		//$('.header-box').addClass('over');
 	});
 
 	$('.header-box').mouseleave(function(){
-		$('.header-box .snb').slideUp();
+		$('.header-box .snb').hide();
 		//$('.header-box').removeClass('over');
 	});
 
@@ -74,9 +74,10 @@ $(document).ready(function(){
 		console.log('sub page');
 	}
 
-	//etc
-	function moveTag(id){
-		var offset = $("#"+id).offset();
-	  $('html, body').animate({scrollTop : offset.top}, 400);
-	}
 });
+
+//etc
+function moveTag(id){
+	var offset = $("#"+id).offset();
+  $('html, body').animate({scrollTop : offset.top}, 400);
+}
