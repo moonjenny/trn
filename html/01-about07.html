@@ -12,62 +12,9 @@
   <script type="text/javascript" src="../com/js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="../com/js/swiper.min.js"></script>
   <script type="text/javascript" src="../com/js/common.ui.js"></script>
-  <script type="text/javascript">
-//지도설정
-// daumMap(1,37.5608922,126.9762053); //숭례문지점
-/*
 
-daumMap(2,36.3306457,127.4238468); --중부지점
-daumMap(3,35.2495546,129.0935376); --영남지점
-*/
-/**
- * 다음api를 이용하여 지도를 그린다
- * @param map 해당 div id
- * @param pos1 위도
- * @param pos2 경도
- */
+  <!--<script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=ada0996b4aec58989cd7b77c9b1a7126"></script>-->
 
-function daumMap(map,pos1,pos2) {
-    var position = new daum.maps.LatLng(pos1, pos2);
-
-    var dmap = new daum.maps.Map(document.getElementById('map'+map), {
-        center: position,
-        level: 4 // 지도 레벨
-    });
-
-    var zoomControl = new daum.maps.ZoomControl();
-    dmap.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
-    var mapTypeControl = new daum.maps.MapTypeControl();
-    dmap.addControl(mapTypeControl, daum.maps.ControlPosition.TOPRIGHT);
-
-    var marker = new daum.maps.Marker({
-        position: dmap.getCenter()
-    });
-    marker.setMap(dmap);
-
-};
-
-$(document).ready(function(){
-	$("#map1Load").on('click',function(){
-		daumMap(1,37.5622866,127.0029687);
-
-	});
-// 	daumMap(1,37.5608922,126.9762053);
-
-//     $('.divArea').hide();
-//     $('.divArea').eq(0).show();
-
-//     // TODO : 임시 주석
-//     //$('#layerWrapMap').show();
-//     // 탭클릭
-//     $('.mapLoad').click(function(e) {
-//         e.preventDefault();
-//         $('.divArea').hide();
-//         var checkVal = this.id.substring(1,2);
-//         $('#b'+checkVal).show();
-//     });
-});
-</script>
 
 </head>
 <body>
@@ -155,8 +102,8 @@ $(document).ready(function(){
           </div>
           <div class="map-img">
             <!-- 지도 등장 -->
-						<div id="map1" class="map" style="width:830px;height:480px;">
-						</div>
+						<!--<div id="map" class="daum-map" style="width:830px;height:480px;">
+						</div>-->
 
             <img src="../images/about/about-img-03.jpg" alt="오시는 길 이미지">
           </div>
@@ -225,8 +172,13 @@ $(document).ready(function(){
       </div>
       <div class="foot-family">
         <ul class="terms-box">
+          <li><a href="#"><strong>TV이용약관</strong></a></li>
           <li><a href="#"><strong>웹이용약관</strong></a></li>
           <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+          <li><a href="#"><strong>영상정보처리방침</strong></a></li>
+          <li><a href="#"><strong>청소년보호정책</strong></a></li>
+          <li><a href="#"><strong>신규입점상담</strong></a></li>
+          <li><a href="#"><strong>사업자정보확인</strong></a></li>
         </ul>
         <div class="family-site">
           <span class="site-open">Family site</span>
