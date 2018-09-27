@@ -74,3 +74,9 @@ $(window).load(function(){
 		console.log('sub page');
 	}
 });
+
+//etc
+function moveTag(id){
+	var offset = $("#"+id).offset();
+  $('html, body').animate({scrollTop : offset.top}, 400);
+}
