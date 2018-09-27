@@ -187,7 +187,33 @@ body:after {display:block; clear:both; content:'';}
 .about .subway{margin:40px 0 35px;}
 .about .subway .tit{display:block;margin:30px 0 0;font-size:20px;color:#000;font-weight:bold;}
 .about .subway .txt{display:block;margin:10px 0 0;color:#000;line-height:28px;font-family:'NotoSans Light'}
-.about .group-list{margin:70px 0;}
+.about .group-list{position:relative;margin:70px 0;}
+.about .group-list .bg{position:absolute;top:0;left:0;width:308px;height:580px;}
+.about .group-list ul{padding-left:308px;width:836px;}
+.about .group-list ul:after{display:block;clear:both;content:'';}
+.about .group-list ul li{position:relative;float:left;width:412px;margin:0 3px 6px;}
+.about .group-list ul li:hover:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(162, 130, 53, 0.85);z-index:0;}
+.about .group-list ul li span{position:absolute;color:#fff;font-size:16px;font-family:'NotoSans Light';z-index:2;}
+.about .group-list ul li span.tit{top:52px;width:100%;text-align:center;font-size:26px;font-weight:bold;}
+.about .group-list ul li span.link01{left:57px;top:104px;}
+.about .group-list ul li span.link02{left:57px;top:132px;}
+.about .group-list ul li span.link03{left:147px;top:104px;}
+.about .group-list ul li span.link04{left:147px;top:132px;}
+.about .group-list ul li span.link05{left:262px;top:104px;}
+.about .group-list ul li span.link06{left:262px;top:132px;}
+.about .group-list ul li span.link07{left:90px;top:104px;}
+.about .group-list ul li span.link08{left:90px;top:130px;}
+.about .group-list ul li span.link09{left:177px;top:104px;}
+.about .group-list ul li span.link10{left:48px;top:104px;}
+.about .group-list ul li span.link11{left:48px;top:132px;}
+.about .group-list ul li span.link12{left:136px;top:104px;}
+.about .group-list ul li span.link13{left:136px;top:132px;}
+.about .group-list ul li span.link14{left:222px;top:104px;}
+.about .group-list ul li span.link15{left:158px;top:104px;}
+.about .group-list ul li span.link16{left:214px;top:104px;}
+.about .group-list ul li span.link17{left:72px;top:104px;}
+.about .group-list ul li span.link18{left:72px;top:132px;}
+.about .group-list ul li span.link19{left:215px;top:132px;}
 .about .company-history{position:relative;margin:6px 0 47px;}
 .about .company-history .company-name{margin:0 0 0 120px;padding:0 0 10px;font-size:18px;color:#111;font-family:'NotoSans Regular';border-bottom:1px solid #111;}
 .about .company-history .year{position:absolute;top:34px;left:0;padding:22px 0;width:90px;border-top:1px solid #c52b5b;font-size:22px;color:#111;font-weight:bold;font-family:'NotoSans Regular';}
