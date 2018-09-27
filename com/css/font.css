@@ -28,7 +28,7 @@
     url(../font/NotoSans-Regular.woff) format('woff');
 }
 @font-face {
-    font-family:'NotoSans Blod';
+    font-family:'NotoSans Bold';
     font-style:normal;
     font-weight:bold;
     src:url(../font/notokr-bold.eot);

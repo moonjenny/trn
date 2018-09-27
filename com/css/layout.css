@@ -163,7 +163,7 @@ body:after {display:block; clear:both; content:'';}
 .tit-box.customer{background:rgba(0,0,0,0.8) url(../../images/common/bg-sub-05.jpg) top center no-repeat;}
 .tit-box .tit-info{width:1140px;margin:0 auto;text-align:left;padding-top:122px;line-height:34px;}
 .tit-box .tit-info span{display:block;}
-.tit-box .tit-info .title{font-size:18px;color:#05b7fb;}
+.tit-box .tit-info .title{font-size:18px;color:#05b7fb;font-weight:bold;}
 .tit-box .tit-info .text{margin:5px 0 0;font-size:24px;color:#fff;}
 .sec-sub{width:1140px;margin:0 auto;padding:45px 0 80px;}
 .sec-sub .h4-tit{padding:0 0 15px;color:#111;font-size:24px;border-bottom:2px solid #111;font-weight:bold;}
@@ -172,7 +172,7 @@ body:after {display:block; clear:both; content:'';}
 .about .top-img{margin:30px 0;}
 .about dl{margin:30px 0 50px;}
 .about dl:after{display:block;clear:both;content:''}
-.about dt{float:left;width:310px;color:#111;font-size:28px;line-height:42px;letter-spacing:-1px;font-weight:bold;}
+.about dt{float:left;width:310px;color:#111;font-size:28px;line-height:42px;letter-spacing:-1px;font-weight:bold;font-family:'NotoSans Bold';}
 .about dd{float:left;width:830px;color:#111;line-height:24px;font-family:'NotoSans Light';}
 .about dd strong{font-family:'NotoSans Regular';}
 .about dd em{color:#111;font-size:16px;font-weight:bold;}
