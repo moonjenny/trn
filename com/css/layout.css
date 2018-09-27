@@ -66,7 +66,7 @@ body:after {display:block; clear:both; content:'';}
 #footer {position:relative;border-top:1px solid #777;}
 .foot-family{position:relative;width:1015px;margin:0 auto;padding:0 0 0 125px;height:60px;background:#fff;z-index:1;}
 .foot-family li{display:inline-block;margin-right:25px;text-align:left;}
-.foot-family li a{color:#373737;font-size:14px;line-height:60px;}
+.foot-family li a{color:#373737;font-size:14px;line-height:60px;font-family:'NotoSans DemiLight';}
 .family-site {position:absolute;top:0;right:0;height:60px;width:166px;border-left:1px solid #c7c7c7;border-right:1px solid #c7c7c7;text-align:center;cursor:pointer}
 .family-site .site-open{font-size:14px;color:#373737;line-height:60px;font-family:'Verdana';}
 .family-site .site-open:after{content:'';padding-right:48px;background:url(../../images/common/btn-arr.png) right center no-repeat;}
