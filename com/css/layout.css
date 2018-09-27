@@ -106,10 +106,10 @@ body:after {display:block; clear:both; content:'';}
 .main .swiper-slide .txt-box .eng{display:inline-block;padding:0 0 8px;color:#05b7fb;font-size:24px;font-weight:bold;border-bottom:2px solid #05b7fb;}
 .main .swiper-slide .txt-box .tit{margin:30px 0 0;color:#fff;font-size:55px;font-weight:bold;}
 .main .swiper-slide .txt-box .txt{margin:12px 0 0;color:#fff;font-size:30px;}
-.main .swiper-container-horizontal .swiper-pagination{position:absolute;top:410px;left:50%;margin-left:-575px;width:90px;height:20px;text-align:left;}
+.main .swiper-container-horizontal .swiper-pagination{position:absolute;top:410px;left:50%;margin-left:-575px;width:90px;height:20px;text-align:left;z-index:2;}
 .main .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin:0 7px; width:13px;height:13px;border:1px solid #fff;border-radius:inherit;background:none;opacity:1;vertical-align:top;}
 .main .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active{background:#fff;}
-.main .swiper-container .swiper-control{position:absolute;top:410px;left:50%;margin-left:-480px;width:20px;height:20px;z-index:1;}
+.main .swiper-container .swiper-control{position:absolute;top:410px;left:50%;margin-left:-480px;width:20px;height:20px;z-index:2;}
 .main .swiper-container .swiper-control span{display:block;width:20px;height:20px;font-size:0;color:transparent;text-indent:-9999px;cursor:pointer;}
 .main .swiper-container .swiper-control .recom-stop{background:url(../../images/main/btn-stop.png) no-repeat;background-size: 15px 15px;}
 .main .swiper-container .swiper-control .recom-play{background:url(../../images/main/btn-play.png) no-repeat;background-size: 15px 15px;}
@@ -179,7 +179,7 @@ body:after {display:block; clear:both; content:'';}
 .about dd .tit{display:block;font-size:20px;margin:0 0 5px;}
 .about .map{margin:40px 0 0;}
 .about .map:after{display:block;clear:both;content:''}
-.about .map .map-addr{float:left;padding:35px 30px;width:247px;height:408px;border:1px solid #d5d5d5}
+.about .map .map-addr{float:left;padding:35px 30px;width:249px;height:408px;border:1px solid #d5d5d5;border-right:none;}
 .about .map .tit{display:block;margin:0 0 13px;font-size:28px;font-weight:bold;color:#111;}
 .about .map .addr{display:block;margin:0 0 20px;color:#000;line-height:28px;font-family:'NotoSans Light';}
 .about .map .txt{display:block;color:#000;line-height:26px;}

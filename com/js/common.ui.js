@@ -17,6 +17,7 @@ $(document).ready(function(){
 			slidesPerView: 1,
 			spaceBetween: 0,
 			loop: true,
+			clickable: false,
 			autoplay: {
 				delay: 4000,
 				disableOnInteraction: false,
