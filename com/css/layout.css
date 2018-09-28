@@ -54,7 +54,7 @@ body:after {display:block; clear:both; content:'';}
 .header-box .snb .inner{position:relative;width:1140px;height:202px;/*height:302px;*/margin:0 auto;}
 .header-box .snb .inner ul{position:absolute;top:16px;}
 .header-box .snb .inner ul li{line-height:37px;}
-.header-box .snb .inner ul li a{color:#222;font-size:16px;font-family:'NotoSans DemiLight';}
+.header-box .snb .inner ul li a{color:#222;font-size:16px;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .header-box .snb .inner ul li a:hover{color:#b61549;text-decoration:underline;}
 .header-box .snb .inner .snb-01{left:265px;}
 .header-box .snb .inner .snb-02{left:409px;}
@@ -66,7 +66,7 @@ body:after {display:block; clear:both; content:'';}
 #footer {position:relative;border-top:1px solid #777;}
 .foot-family{position:relative;width:1015px;margin:0 auto;padding:0 0 0 125px;height:60px;background:#fff;z-index:1;}
 .foot-family li{display:inline-block;margin-right:25px;text-align:left;}
-.foot-family li a{color:#373737;font-size:14px;line-height:60px;font-family:'NotoSans DemiLight';}
+.foot-family li a{color:#373737;font-size:14px;line-height:60px;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .family-site {position:absolute;top:0;right:0;height:60px;width:166px;border-left:1px solid #c7c7c7;border-right:1px solid #c7c7c7;text-align:center;cursor:pointer}
 .family-site .site-open{font-size:14px;color:#373737;line-height:60px;font-family:'Verdana';}
 .family-site .site-open:after{content:'';padding-right:48px;background:url(../../images/common/btn-arr.png) right center no-repeat;}
@@ -87,7 +87,7 @@ body:after {display:block; clear:both; content:'';}
 .addr-wrap .addr-list{margin:0 0 0 125px;}
 .addr-wrap .addr-list ul{margin:0 0 6px;}
 .addr-wrap .addr-list ul:after{display:block;clear:both;content:''}
-.addr-wrap .addr-list ul li{float:left;height:16px;line-height:16px;margin-right:10px;padding-left:10px;font-size:12px;color:#373737;border-left:1px solid #ccc;font-family:'NotoSans DemiLight'}
+.addr-wrap .addr-list ul li{float:left;height:16px;line-height:16px;margin-right:10px;padding-left:10px;font-size:12px;color:#373737;border-left:1px solid #ccc;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim}
 .addr-wrap .addr-list ul li:first-child{border:none;padding:0;}
 
 /* container */
@@ -128,7 +128,7 @@ body:after {display:block; clear:both; content:'';}
 .main-gate ul li .gate-box span{display:block;color:#fff;}
 .main-gate ul li .gate-box .tag{margin-bottom:20px;font-size:18px;}
 .main-gate ul li .gate-box .tit{font-size:31px;font-weight:400;}
-.main-gate ul li .gate-box .txt{margin:18px 0 0;font-size:15px;line-height:22px;font-family:'NotoSans DemiLight'}
+.main-gate ul li .gate-box .txt{margin:18px 0 0;font-size:15px;line-height:22px;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim}
 .main-gate ul li .gate-box .btn-gate{display:block;margin:31px 0 0;width:58px;height:48px;border:1px solid #fff;}
 .main-gate ul li .gate-box .btn-gate:before{content:'';display:block;width:58px;height:48px;background:url(../../images/main/btn-gate.png) no-repeat;-webkit-transition:-webkit-transform .2s;transition:-webkit-transform .2s;-o-transition:transform .2s;transition:transform .2s;transition:transform .2s,-webkit-transform .2s;}
 .main-gate ul li .gate-box a:hover .btn-gate:before{-webkit-transform:translate(5px, 0);-ms-transform:translate(5px, 0);transform:translate(5px, 0)}
@@ -141,8 +141,8 @@ body:after {display:block; clear:both; content:'';}
 .trn-notice .noti-list li a{display:block;}
 .trn-notice .noti-list li a span{display:block;overflow:hidden;}
 .trn-notice .noti-list li a .pre-txt{margin:15px 5px 0;font-size:20px;line-height:27px;color:#222;}
-.trn-notice .noti-list li a .pre-data{margin:20px 5px 0;font-size:14px;color:#666;font-family:'NotoSans Light'}
-.trn-notice .noti-list li a .pre-data em{margin:0 10px 0 0;color:#ca0d4a;font-family:'NotoSans DemiLight'}
+.trn-notice .noti-list li a .pre-data{margin:20px 5px 0;font-size:14px;color:#666;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim}
+.trn-notice .noti-list li a .pre-data em{margin:0 10px 0 0;color:#ca0d4a;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim}
 .trn-notice .noti-list li a .pre-img img{display:block;}
 .trn-notice .noti-list li a .pre-img{border:1px solid #fff;}
 .trn-shortcuts{position:relative;background:url(../../images/main/bg-shortcus.jpg) top center no-repeat;}
@@ -172,21 +172,21 @@ body:after {display:block; clear:both; content:'';}
 .about .top-img{margin:30px 0;}
 .about dl{margin:30px 0 50px;}
 .about dl:after{display:block;clear:both;content:''}
-.about dt{float:left;width:310px;color:#111;font-size:28px;line-height:42px;letter-spacing:-1px;font-weight:bold;font-family:'NotoSans Bold';}
-.about dd{float:left;width:830px;color:#111;line-height:24px;font-family:'NotoSans Light';}
-.about dd strong{font-family:'NotoSans Regular';}
+.about dt{float:left;width:310px;color:#111;font-size:28px;line-height:42px;letter-spacing:-1px;font-weight:bold;font-family:'NotoSans Bold','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
+.about dd{float:left;width:830px;color:#111;line-height:24px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
+.about dd strong{font-family:'NotoSans Regular','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .about dd em{color:#111;font-size:16px;font-weight:bold;}
 .about dd .tit{display:block;font-size:20px;margin:0 0 5px;}
 .about .map{margin:40px 0 0;}
 .about .map:after{display:block;clear:both;content:''}
 .about .map .map-addr{float:left;padding:35px 30px;width:249px;height:408px;border:1px solid #d5d5d5;border-right:none;}
 .about .map .tit{display:block;margin:0 0 13px;font-size:28px;font-weight:bold;color:#111;}
-.about .map .addr{display:block;margin:0 0 20px;color:#000;line-height:28px;font-family:'NotoSans Light';}
+.about .map .addr{display:block;margin:0 0 20px;color:#000;line-height:28px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .about .map .txt{display:block;color:#000;line-height:26px;}
-.about .map .tel{display:block;color:#000;line-height:26px;font-family:'NotoSans Light';}
+.about .map .tel{display:block;color:#000;line-height:26px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .about .subway{margin:40px 0 35px;}
 .about .subway .tit{display:block;margin:30px 0 0;font-size:20px;color:#000;font-weight:bold;}
-.about .subway .txt{display:block;margin:10px 0 0;color:#000;line-height:28px;font-family:'NotoSans Light'}
+.about .subway .txt{display:block;margin:10px 0 0;color:#000;line-height:28px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim}
 .about .group-list{position:relative;margin:70px 0;}
 .about .group-list .bg{position:absolute;top:0;left:0;width:308px;height:580px;}
 .about .group-list ul{padding-left:308px;width:836px;}
@@ -194,7 +194,7 @@ body:after {display:block; clear:both; content:'';}
 .about .group-list ul li{position:relative;float:left;width:412px;margin:0 3px 6px;}
 .about .group-list ul li:hover:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(162, 130, 53, 0.85);z-index:0;}
 .about .group-list ul li.first:hover:after{background:none;}
-.about .group-list ul li span{display:block;position:absolute;color:#fff;font-size:16px;font-family:'NotoSans Light';z-index:2;}
+.about .group-list ul li span{display:block;position:absolute;color:#fff;font-size:16px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim;z-index:2;}
 .about .group-list ul li span a:hover{text-decoration:underline;}
 .about .group-list ul li span.tit{top:52px;width:100%;text-align:center;font-size:26px;font-weight:bold;}
 .about .group-list ul li span.link01{left:57px;top:104px;}
@@ -217,8 +217,8 @@ body:after {display:block; clear:both; content:'';}
 .about .group-list ul li span.link18{left:72px;top:132px;}
 .about .group-list ul li span.link19{left:215px;top:132px;}
 .about .company-history{position:relative;margin:6px 0 47px;}
-.about .company-history .company-name{margin:0 0 0 120px;padding:0 0 10px;font-size:18px;color:#111;font-family:'NotoSans Regular';border-bottom:1px solid #111;}
-.about .company-history .year{position:absolute;top:34px;left:0;padding:22px 0;width:90px;border-top:1px solid #c52b5b;font-size:22px;color:#111;font-weight:bold;font-family:'NotoSans Regular';}
+.about .company-history .company-name{margin:0 0 0 120px;padding:0 0 10px;font-size:18px;color:#111;font-family:'NotoSans Regular','맑은 고딕',"돋움", Dotum, "굴림", Gulim;border-bottom:1px solid #111;}
+.about .company-history .year{position:absolute;top:34px;left:0;padding:22px 0;width:90px;border-top:1px solid #c52b5b;font-size:22px;color:#111;font-weight:bold;font-family:'NotoSans Regular','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .about .company-history .year-con{margin:0 0 0 120px;}
 .about .company-history .year-con.list2{width:350px;}
 .about .company-history .year-con .detail{padding:22px 0;color:#111;border-bottom:1px solid #ccc;line-height:24px;}
@@ -233,16 +233,16 @@ body:after {display:block; clear:both; content:'';}
 .business dl{margin:30px 0 55px;}
 .business dl:after{display:block;clear:both;content:''}
 .business dt{float:left;width:310px;color:#111;font-size:28px;line-height:42px;letter-spacing:-1px;}
-.business dd{float:left;width:830px;color:#000;line-height:28px;font-family:'NotoSans Light';}
-.business dd strong{font-size:20px;font-family:'NotoSans Regular';}
+.business dd{float:left;width:830px;color:#000;line-height:28px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
+.business dd strong{font-size:20px;font-family:'NotoSans Regular','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .business dd em{color:#111;font-size:16px;font-weight:bold;}
 
 /* news */
 .news .news-tit{position:relative;height:68px;border-bottom:1px solid #ccc;padding:0 20px;}
 .news .news-tit .tit{font-size:20px;color:#000;line-height:68px;font-weight:bold}
-.news .news-tit .data{position:absolute;right:20px;top:0;font-size:18px;color:#666;line-height:68px;font-family:'NotoSans Light';}
+.news .news-tit .data{position:absolute;right:20px;top:0;font-size:18px;color:#666;line-height:68px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .news .news-con{padding:30px 20px;border-bottom:1px solid #ccc;}
-.news .news-con p{padding:20px 0;line-height:24px;font-family:'NotoSans DemiLight';}
+.news .news-con p{padding:20px 0;line-height:24px;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .sec-sub .news{padding:0 0 80px;border-bottom:2px solid #111;}
 .sec-sub .news.last{padding:0;border-bottom:none;}
 
@@ -271,15 +271,15 @@ body:after {display:block; clear:both; content:'';}
 .etc01 .ag_list:after{content:"";display:block;clear:both}
 .etc01 .ag_list ol{float:left;width:400px}
 .etc01 .ag_list ol.w330{width:330px}
-.etc01 .ag_list ol li{margin-bottom:11px;font-family:'NotoSans DemiLight';}
+.etc01 .ag_list ol li{margin-bottom:11px;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .etc01 .ag_list ol li a:hover, .sub_agreement .ag_list ol li a span:hover{text-decoration:underline}
 .etc01 .ag_list ol.w330 li a:hover, .sub_agreement .ag_list ol.w330 li a.span:hover{text-decoration:underline}
-.etc01 .ag_list ol li strong{display:inline-block;width:70px;vertical-align:top;*display:inline;*zoom:1;font-family:'NotoSans Bold';}
+.etc01 .ag_list ol li strong{display:inline-block;width:70px;vertical-align:top;*display:inline;*zoom:1;font-family:'NotoSans Bold','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .etc01 .ag_list ol li span{display:inline-block;width:200px;}
 .etc01 .ag_cont{margin-top:33px;}
 .etc01 .ag_cont li{margin-top:30px;color:#111;}
-.etc01 .ag_cont li, .etc01 .ag_cont strong,.etc01 .ag_cont p{line-height:30px;font-family:'NotoSans Light';}
-.etc01 .ag_cont li strong{color:#111; font-size: inherit;font-family:'NotoSans DemiLight';}
+.etc01 .ag_cont li, .etc01 .ag_cont strong,.etc01 .ag_cont p{line-height:30px;font-family:'NotoSans Light','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
+.etc01 .ag_cont li strong{color:#111; font-size: inherit;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .etc01 .ag_cont li li{margin-top:0;}
 .etc01 .ag_cont li li li{margin-left:20px}
 .etc01 .ag_cont li li p{margin-left:15px}
@@ -291,7 +291,7 @@ body:after {display:block; clear:both; content:'';}
 .etc01 > p {padding-top:30px;}
 
 .board_list_c {margin:15px 0;border-bottom:1px solid #ccc;width:100%;}
-.board_list_c thead tr th {text-align:center;font-weight:bold;padding:16px 0 18px 0px;font-size:16px;line-height:20px;color:#111; background-color:#d2d2d2;font-family:'NotoSans DemiLight';}
+.board_list_c thead tr th {text-align:center;font-weight:bold;padding:16px 0 18px 0px;font-size:16px;line-height:20px;color:#111; background-color:#d2d2d2;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim;}
 .board_list_c thead tr th:first-child{	 text-align: center; border-left:none;}
 .board_list_c tbody tr th:first-child {	border-left:none;}
 .board_list_c tbody tr th,
