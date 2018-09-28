@@ -194,7 +194,7 @@ body:after {display:block; clear:both; content:'';}
 .about .group-list ul li{position:relative;float:left;width:412px;margin:0 3px 6px;}
 .about .group-list ul li:hover:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(162, 130, 53, 0.85);z-index:0;}
 .about .group-list ul li.first:hover:after{background:none;}
-.about .group-list ul li span{position:absolute;color:#fff;font-size:16px;font-family:'NotoSans Light';z-index:2;}
+.about .group-list ul li span{display:block;position:absolute;color:#fff;font-size:16px;font-family:'NotoSans Light';z-index:2;}
 .about .group-list ul li span a:hover{text-decoration:underline;}
 .about .group-list ul li span.tit{top:52px;width:100%;text-align:center;font-size:26px;font-weight:bold;}
 .about .group-list ul li span.link01{left:57px;top:104px;}
