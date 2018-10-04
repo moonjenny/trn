@@ -129,9 +129,15 @@ body:after {display:block; clear:both; content:'';}
 .main-gate ul li .gate-box .tag{margin-bottom:20px;font-size:18px;}
 .main-gate ul li .gate-box .tit{font-size:31px;font-weight:400;}
 .main-gate ul li .gate-box .txt{margin:18px 0 0;font-size:15px;line-height:22px;font-family:'NotoSans DemiLight','맑은 고딕',"돋움", Dotum, "굴림", Gulim}
-.main-gate ul li .gate-box .btn-gate{display:block;margin:31px 0 0;width:58px;height:48px;border:1px solid #fff;}
-.main-gate ul li .gate-box .btn-gate:before{content:'';display:block;width:25px;height:48px;margin:0 auto;background:url(../../images/main/btn-gate-over.png) -23px 0 no-repeat;-webkit-transition:-webkit-transform .3s;transition:-webkit-transform .3s;-o-transition:transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s;}
-.main-gate ul li .gate-box a:hover .btn-gate:before{width:37px;background:url(../../images/main/btn-gate-over.png) -11px 0 no-repeat;/*-webkit-transform:translate(10px, 0);-ms-transform:translate(10px, 0);transform:translate(10px, 0)*/}
+.main-gate ul li .gate-box .btn-gate{position:relative;display:block;margin:31px 0 0;width:58px;height:48px;border:1px solid #fff;}
+/*.main-gate ul li .gate-box .btn-gate:before{content:'';display:block;width:25px;height:48px;margin:0 auto;background:url(../../images/main/btn-gate-over.png) -23px 0 no-repeat;-webkit-transition:-webkit-transform .3s;transition:-webkit-transform .3s;-o-transition:transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s;}
+.main-gate ul li .gate-box a:hover .btn-gate:before{width:37px;background:url(../../images/main/btn-gate-over.png) -11px 0 no-repeat;-webkit-transform:translate(0, 0);-ms-transform:translate(0, 0);transform:translate(0, 0)}
+*/
+.main-gate ul li .gate-box .btn-gate:before {content:'';width:25px;height:1px;background:#fff;position:absolute;top:25px;margin-top:-1px;left:17px;transition: all 0.3s ease;}
+.main-gate ul li .gate-box a:hover .btn-gate:before {left:11px;width:36px;}
+.main-gate ul li .gate-box .btn-gate:after {content:'';position:absolute;top:17px;right:17px;width:14px;height:14px;border-top:1px solid #fff;border-right:1px solid #fff;transform: rotate(45deg);transition: all 0.3s ease;}
+.main-gate ul li .gate-box a:hover .btn-gate:after {right:14px;}
+
 .trn-notice{width:1140px;margin:0 auto;padding:80px 0;}
 .trn-notice h3{color:#222;font-size:34px;font-weight:bold;text-align:center;line-height:33px;}
 .trn-notice .noti-list{padding:50px 0 0;}
